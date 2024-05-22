@@ -18,16 +18,21 @@ section[id="contenedor1"] {
     height: 10%;
 }
 
-    section[id=obj_parent_button] {
+section[id=obj_parent_button] {
         background-color: #82d999;
         width: 25%;
         height: 80%;
         float: left;
-      
-
         margin-left: 0.5%;
         margin-top: 0.5%;
         border-radius: 25px;
+        text-align:center;
     }
 
-
+div[id="centrar"] {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
