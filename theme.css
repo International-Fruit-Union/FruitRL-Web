@@ -2,33 +2,83 @@
     font-family: LetraGoogle;
     src: url("Fonts/font.ttf");
 }
-body {
-    background-image: url("grass.png");
-    font-size: 24px;
-    
-}
 
-section {
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
     font-family: LetraGoogle;
 }
 
 
+body {
+    background-image: url("Images/grass.png");
+    font-size: 24px;
+}
+
+
+
+section[id=obj_navegationbox] {
+    background-image: url("Images/nav/banner.png");
+    background-position-y: center;
+    background-position-x: center;
+    border-bottom: 5px solid #599168;
+    width: 100%;
+    height: 10%;
+}
 
 section[id=obj_parent_button] {
+    background-color: rgba(130,217,153,0.5);
+    width: 23.5%;
+    height: 75%;
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 100%;
+    border: 4px solid #599168;
+}
+
+    section[id=obj_parent_button]:hover {
         background-color: #82d999;
-        width: 25%;
-        height: 80%;
+        width: 23.5%;
+        height: 75%;
         float: left;
         margin-left: 0.5%;
         margin-top: 0.5%;
         border-radius: 25px;
-        text-align:center;
+        text-align: center;
+        border: 4px solid #599168;
     }
 
-div[id="centrar"] {
+div[id="scr_center"] {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+}
+
+
+section[id="obj_textbox_parent"] {
+    background-color: rgba(255,255,255,0.5);
+    width: inherit;
+    height: inherit;
+    margin: 50px;
+    font-size: 100%;
+}
+
+p[id="obj_textbox_text"] {
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+
+footer {
+    background-color: darkgreen;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: right
 }
