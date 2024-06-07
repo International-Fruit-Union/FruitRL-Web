@@ -58,7 +58,7 @@ main {
     height: 64%;
     float: left;
     border-radius: 25px;
-    text-align: center;
+    
     font-size: 100%;
     border: 4px solid #42f5ec;
 }
@@ -84,7 +84,7 @@ section[id="Caja1"] {
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 25px;
-    text-align: center;
+   
     margin-bottom: 10px;
     font-size: 100%;
     border: 4px solid #599168;
@@ -117,4 +117,34 @@ div[id="Imagen2"] {
     height: 50%;
     background-position: center;
     background-image: url(Images/evilf.jpg);
+}
+
+table {
+    width: 98%;
+    height: 90%;
+    margin: 10px;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+caption {
+    text-align: center;
+
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+tr {
+   
+    border-collapse: collapse;
+    border: 2px solid #000000;
+}
+td {
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 2px solid #000000;
+    font-family: Arial;
+    font-size: 11px;
 }
